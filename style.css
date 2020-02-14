@@ -10,6 +10,14 @@
   position: relative;
 }
 
+.container:hover{
+  cursor: default;
+}
+
+.container:hover .layover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .container:hover .layover{
   background-color: rgba(0, 0, 0, 0);
 }
