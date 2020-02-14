@@ -5,7 +5,7 @@
 }
 
 .container{
-  height: 33vh;
+  height: calc(100vh / 3);
   background-size: cover;
   position: relative;
 }
