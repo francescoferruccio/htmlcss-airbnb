@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container{
   height: 33vh;
   background-size: cover;
@@ -19,8 +25,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 30px;
 }
 
 .londra{
   background-image: url(img/london.jpg);
+}
+
+.tokyo{
+  background-image: url(img/tokyo.jpg);
+}
+
+.newyork{
+  background-image: url(img/newyork.jpg);
 }
