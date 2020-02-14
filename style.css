@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.container:hover .layover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .layover {
   position: absolute;
   top: 0;
